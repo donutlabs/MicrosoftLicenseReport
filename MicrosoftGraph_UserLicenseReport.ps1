@@ -81,7 +81,7 @@ try {
 
 # Try to export the results to a CSV file
 try {
-    $result | Export-Csv -Path "c:/zedsfile.csv" -NoTypeInformation
+    $result | Export-Csv -Path "c:/yourfile.csv" -NoTypeInformation
 } catch {
     # If exporting results fails, write an error message
     Write-Error "Failed to export results to CSV: $_"
