@@ -12,7 +12,7 @@ This PowerShell script connects to Microsoft Graph to retrieve all user accounts
 ## Usage:
 1. Ensure you have the required permissions and modules to connect to Microsoft Graph.
 2. Run the script in a PowerShell environment with the necessary privileges.
-3. The results will be displayed in the console and saved to `c:/zedsfile.csv`.
+3. The results will be displayed in the console and saved to `c:/yourfilenam.csv`.
 
 ## Error Handling:
 - The script includes error handling to manage failures in connecting to Microsoft Graph, retrieving user data, processing user information, and exporting the results. Appropriate error messages are displayed to aid in troubleshooting.
